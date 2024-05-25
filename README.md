@@ -29,13 +29,11 @@ Reg no : 212221230030.
 ```
 using System;
 
-// Define the IMario interface
 public interface IMario
 {
     void Ability();
 }
 
-// Implement the IMario interface in the Mario class
 public class Mario : IMario
 {
     public virtual void Ability()
@@ -44,7 +42,6 @@ public class Mario : IMario
     }
 }
 
-// SuperMario class that inherits from Mario and hides the Ability() method
 public class SuperMario : Mario
 {
     public new void Ability()
@@ -68,6 +65,7 @@ class Program
 
 ```
 ## OUTPUT:
+
 <img width="960" alt="image" src="https://github.com/JayanthYadav123/19AI308-Object-Oriented-Programming-using-CSharp--Exp-8-Name-Hiding-with-interface-inheritance/assets/94836154/9dfbf8ea-9e1d-4c75-a432-21618dd45576">
 
 ## RESULT:
